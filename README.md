@@ -65,3 +65,7 @@
 -	设计Shell来完成最基本的命令操作
 -	设计各种监控窗口进行操作系统监控
 
+## 总设计图
+![image](https://user-images.githubusercontent.com/57952228/218363468-cd7b2aac-25cc-42a9-ab5d-53715b2ef5ff.png)
+
+
