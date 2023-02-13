@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源代码</Filter>
+    </ClCompile>
+    <ClCompile Include="MicroOSGUI.cpp">
+      <Filter>源代码</Filter>
+    </ClCompile>
+    <ClCompile Include="device.cpp">
+      <Filter>源代码</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel.cpp">
+      <Filter>源代码</Filter>
+    </ClCompile>
+    <ClCompile Include="memory.cpp">
+      <Filter>源代码</Filter>
+    </ClCompile>
+    <ClCompile Include="file.cpp">
+      <Filter>源代码</Filter>
+    </ClCompile>
+    <ClCompile Include="misc.cpp">
+      <Filter>源代码</Filter>
+    </ClCompile>
+    <ClCompile Include="process.cpp">
+      <Filter>源代码</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{7f7f12d8-6f93-4d44-a3ee-fe77c2cb2510}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源代码">
+      <UniqueIdentifier>{65e472d1-0816-4bb1-be87-03affe8b950d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Qt">
+      <UniqueIdentifier>{bedb8749-a273-4309-8484-bd81d4050174}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="MicroOSGUI.h">
+      <Filter>头文件</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="MicroOSGUI.ui">
+      <Filter>Qt</Filter>
+    </QtUic>
+  </ItemGroup>
+  <ItemGroup>
+    <QtRcc Include="MicroOSGUI.qrc">
+      <Filter>Qt</Filter>
+    </QtRcc>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="def.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="device.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="file.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="memory.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="misc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="process.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MicroOSGUIClass</class>
+ <widget class="QMainWindow" name="MicroOSGUIClass">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>927</width>
+    <height>588</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MicroOSGUI</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="1">
+     <layout class="QVBoxLayout" name="verticalLayout" stretch="1,9,9,9,9">
+      <item>
+       <widget class="QLCDNumber" name="systemTime">
+        <property name="styleSheet">
+         <string notr="true"/>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QTextBrowser" name="processInfo"/>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_6">
+        <item>
+         <widget class="QTextBrowser" name="memInfo"/>
+        </item>
+        <item>
+         <widget class="QTableWidget" name="memView">
+          <property name="cursor" stdset="0">
+           <cursorShape>CrossCursor</cursorShape>
+          </property>
+          <property name="rowCount">
+           <number>23</number>
+          </property>
+          <property name="columnCount">
+           <number>3</number>
+          </property>
+          <attribute name="horizontalHeaderCascadingSectionResizes">
+           <bool>true</bool>
+          </attribute>
+          <attribute name="horizontalHeaderHighlightSections">
+           <bool>true</bool>
+          </attribute>
+          <attribute name="verticalHeaderVisible">
+           <bool>false</bool>
+          </attribute>
+          <row/>
+          <row/>
+          <row/>
+          <row/>
+          <row/>
+          <row/>
+          <row/>
+          <row/>
+          <row/>
+          <row/>
+          <row/>
+          <row/>
+          <row/>
+          <row/>
+          <row/>
+          <row/>
+          <row/>
+          <row/>
+          <row/>
+          <row/>
+          <row/>
+          <row/>
+          <row/>
+          <column>
+           <property name="text">
+            <string>blockNum</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>status</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>process</string>
+           </property>
+          </column>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <widget class="QTableWidget" name="fileView">
+        <column>
+         <property name="text">
+          <string>filename</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>path</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>pn</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>pid </string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>mode</string>
+         </property>
+        </column>
+       </widget>
+      </item>
+      <item>
+       <widget class="QTableWidget" name="deviceView">
+        <column>
+         <property name="text">
+          <string>deviceID</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>status</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>device queue</string>
+         </property>
+        </column>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item row="0" column="0">
+     <layout class="QVBoxLayout" name="verticalLayout_2" stretch="5,2">
+      <item>
+       <widget class="QTextEdit" name="shell"/>
+      </item>
+      <item>
+       <widget class="QTableWidget" name="processView">
+        <property name="cursor" stdset="0">
+         <cursorShape>CrossCursor</cursorShape>
+        </property>
+        <property name="rowCount">
+         <number>3</number>
+        </property>
+        <property name="columnCount">
+         <number>4</number>
+        </property>
+        <attribute name="horizontalHeaderCascadingSectionResizes">
+         <bool>true</bool>
+        </attribute>
+        <row/>
+        <row/>
+        <row/>
+        <column>
+         <property name="text">
+          <string>PID</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>processName</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>status</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>PCaddress</string>
+         </property>
+        </column>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>927</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>菜单</string>
+    </property>
+    <addaction name="actiontest1"/>
+    <addaction name="actiontest2"/>
+   </widget>
+   <widget class="QMenu" name="menu_2">
+    <property name="title">
+     <string>关于</string>
+    </property>
+    <addaction name="actionVersion"/>
+   </widget>
+   <addaction name="menu"/>
+   <addaction name="menu_2"/>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="actiontest1">
+   <property name="text">
+    <string>test1</string>
+   </property>
+  </action>
+  <action name="actiontest2">
+   <property name="text">
+    <string>test2</string>
+   </property>
+  </action>
+  <action name="actionVersion">
+   <property name="text">
+    <string>version</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="MicroOSGUI.qrc"/>
+ </resources>
+ <connections/>
+</ui>

@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/MicroOSGUI">
+        <file>MicroOSGUI.ui</file>
+    </qresource>
+</RCC>
